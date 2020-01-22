@@ -1,0 +1,26 @@
+{
+  "name": "app-core",
+  "version": "1.0.0",
+  "description": "Core de una app generica",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgonzalezsistemas/app-core.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgonzalezsistemas/app-core/issues"
+  },
+  "homepage": "https://github.com/mgonzalezsistemas/app-core#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
